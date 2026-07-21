@@ -1,0 +1,52 @@
+# ============================================================
+# osTicket Docker - Git Ignore File
+# ============================================================
+
+# Environment variables (PENTING: Jangan commit!)
+.env
+.env.local
+.env.*.local
+
+# Backup files
+backup*.sql
+backup*.tar.gz
+*_backup.*
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-workspace
+
+# Docker
+docker-compose.override.yml
+docker-compose.*.yml
+
+# Build artifacts
+node_modules/
+dist/
+build/
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.bak
+
+# Database
+data/
+
+# Logs
+logs/
+*.log
+
+# Downloads
+osTicket-*.zip

@@ -1,0 +1,21 @@
+# Docker Build Ignore File
+# Mengurangi ukuran build context
+
+.git
+.gitignore
+.gitlab-ci.yml
+.circleci
+.travis.yml
+.env.example
+INSTALLATION_GUIDE.md
+README.md
+docker-compose.override.yml
+backup*
+*.sql
+*.tar.gz
+*.zip
+.DS_Store
+Thumbs.db
+node_modules
+.vscode
+.idea
